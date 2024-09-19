@@ -44,9 +44,9 @@ Once the game has decided to spawn a super-rare Pokémon, it then decides which 
 
 * Latias is only eligible to appear on the Sapphire playfield.
 * Latios is only eligible to appear on the Ruby playfield.
-* Each event-exclusive Pokémon is only eligible to appear if (a) they are registered in the Pokédex as seen or caught, or (b) you have received their Pokédex entry via link cable.
+* Each event-exclusive Pokémon is only eligible to appear if (a) they are registered in the Pokédex as seen or caught and/or (b) you have received their Pokédex entry via link cable.
 
-Lastly, the game decides which eligible super-rare Pokémon will appear. The game does this by selecting the first eligible Pokémon in the following list that is not registered as caught in the Pokédex:
+Lastly, the game decides which of the eligible super-rare Pokémon will appear. The game does this by selecting the first eligible Pokémon in the following list that is not registered as caught in the Pokédex:
 
 * Latias
 * Latios
