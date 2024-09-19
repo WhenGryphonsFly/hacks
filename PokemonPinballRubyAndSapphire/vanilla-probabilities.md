@@ -136,7 +136,7 @@ No. Event-exclusive Pokémon are not available in games starting from an empty P
 
 ### I heard a rumor that event-exclusive Pokémon can only appear on the Ruby playfield. Is that true?
 
-No, although you would be forgiven for thinking so. The English Pokédex entries incorrectly state that event-exclusive Pokémon can only appear on the Ruby board, but this is false.
+No, although you would be forgiven for thinking so. The English Pokédex entries incorrectly state that event-exclusive Pokémon can only appear on the Ruby field, but this is false.
 
 ### Can I encounter a given Pokémon twice in a row?
 

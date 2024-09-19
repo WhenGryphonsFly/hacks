@@ -1,5 +1,17 @@
 # Changelog
 
+## Version 0.0.2 - Released 2024-09-19
+
+* Fixed a bug where Pokémon weights would be incorrectly applied due to signed versus unsigned arithmetic.
+	* As a consequence, weights have been updated:
+
+| Category | Before being caught | After being caught |
+|---|---|---|
+| Common | 4550 | 1 |
+| Rare (Rayquaza trigger off) | 455 | 1 |
+| Rare (Rayquaza trigger on) | 910 | 1 |
+| Egg | 1310 | 1 |
+
 ## Version 0.0.1 - Released 2024-09-19
 
 * Adjusted Pokémon spawn probabilities.
@@ -15,7 +27,6 @@
 | Rare (Rayquaza trigger on) | 1820 | 1 |
 | Egg | 2621 | 1 |
 
-	
 * Reduced interactions required to encounter Pokémon.
 	* After exiting Catch 'Em Mode, 1 GET arrow will remain lit.
 	* After exiting Evo Mode, 1 EVO arrow will remain lit.
