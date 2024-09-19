@@ -3,16 +3,19 @@
 ## Version 0.0.1 - Released 2024-09-19
 
 * Adjusted Pokémon spawn probabilities.
+	* Pichu now appears 1% of the time when the Rayquaza trigger is off, and 2% of the time when the Rayquaza trigger is on.
 	* Pokémon no longer consider whether Pokédex entries were received via link cable when determining weights.
 	* Rare Pokémon now consider their evolutions when determining weights.
 	* Weights have been updated:
-	| Category | Before being caught | After being caught |
-	|---|---|---|
-	| Common | 9100 | 1 |
-	| Rare (Rayquaza trigger off) | 910 | 1 |
-	| Rare (Rayquaza trigger on) | 1820 | 1 |
-	| Egg | 2621 | 1 |
-	* Pichu now appears 1% of the time when the Rayquaza trigger is off, and 2% of the time when the Rayquaza trigger is on.
+
+| Category | Before being caught | After being caught |
+|---|---|---|
+| Common | 9100 | 1 |
+| Rare (Rayquaza trigger off) | 910 | 1 |
+| Rare (Rayquaza trigger on) | 1820 | 1 |
+| Egg | 2621 | 1 |
+
+	
 * Reduced interactions required to encounter Pokémon.
 	* After exiting Catch 'Em Mode, 1 GET arrow will remain lit.
 	* After exiting Evo Mode, 1 EVO arrow will remain lit.
