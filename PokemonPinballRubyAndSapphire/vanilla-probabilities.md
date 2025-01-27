@@ -64,7 +64,7 @@ If the game decides it will not spawn a super-rare Pokémon, it then determines 
 1. For each Pokémon that could appear in this location, determine if it is a *common* or *rare* Pokémon.
 2. If it is a common Pokémon, assign it a number called a *weight* as follows:
 	* If you have caught 0 Pokémon this game, and this Pokémon cannot evolve, the weight is 0.
-	* Else, if it and all of its evolutions are registered as caught in the Pokédex, the weight is 2.
+	* Else, if it and all of its evolutions are registered as caught in the Pokédex, the weight is 2. (Clamperl considers both of its branching evolutions.)
 	* Else, if you have recived via link cable the Pokédex entry for the Pokémon or any of its evolutions, the weight is 15.
 	* Else, the weight is 10.
 3. If it is a rare Pokémon, assign it a weight as follows:
