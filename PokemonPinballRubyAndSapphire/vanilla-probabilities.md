@@ -142,10 +142,10 @@ No, although you would be forgiven for thinking so. The English Pokédex entries
 
 The only Pokémon that can appear twice in a row are the super-rare Pokémon. All other Pokémon (including Pichu) have a check to prevent them from appearing twice in a row.
 
-### What's this about `unk12B` and `unk12C`?
+### What's this about `forceSpecialMons` and `forcePichuEgg`?
 
-`unk12B` and `unk12C` are variables which are checked when determining whether Pichu or super-rare Pokémon can spawn. If they are enabled, they bypass all other requirements, including the 1%/2% chance. However, searching through the game's code (including code not yet decompiled) does not reveal any other references to `unk12B` or `unk12C`. While we will not know for certain until the game is fully decompiled, it is extremely likely that these are debug variables that cannot be set without the use of a cheating device.
+`forceSpecialMons` and `forcePichuEgg` (previously named `unk12B` and `unk12C`, respectively) are variables which are checked when determining whether Pichu or super-rare Pokémon can spawn. If they are enabled, they bypass most other requirements, including the 1%/2% chance. However, searching through the game's code (including code not yet decompiled) does not reveal any other references to `forceSpecialMons` or `forcePichuEgg`. While we will not know for certain until the game is fully decompiled, it is extremely likely that these are debug variables that cannot be set without the use of a cheating device. In addition, `forceSpecialMons` does NOT bypass the requirement that event-exclusive Pokémon must be registered in the Pokédex in some capacity in order to be spawned.
 
 ### What are you basing this information on?
 
-This information is based on the decompilation. The relevant file is here: https://github.com/pret/pokepinballrs/blob/4f25131f8b00405d91794fb71057a72be87b0634/src/rom_31F6C.c#L12-L303
+This information is based on the decompilation. The relevant code is here: https://github.com/pret/pokepinballrs/blob/4f25131f8b00405d91794fb71057a72be87b0634/src/rom_31F6C.c#L12-L303
