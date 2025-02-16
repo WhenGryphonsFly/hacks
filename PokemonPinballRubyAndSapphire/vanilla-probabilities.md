@@ -148,4 +148,4 @@ The only Pokémon that can appear twice in a row are the super-rare Pokémon. Al
 
 ### What are you basing this information on?
 
-This information is based on the decompilation. The relevant file is here: https://github.com/pret/pokepinballrs/blob/21a824464cf67793567e1881f41e1ca91dd2d881/src/rom_31F6C.c#L11-L619
+This information is based on the decompilation. The relevant file is here: https://github.com/pret/pokepinballrs/blob/4f25131f8b00405d91794fb71057a72be87b0634/src/rom_31F6C.c#L12-L303
